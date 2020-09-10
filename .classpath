@@ -7,5 +7,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/Dev/projetos-JAVA/pessoal/alura/mysql-connector-java-5.1.49.jar"/>
+	<classpathentry kind="lib" path="D:/Dev/projetos-JAVA/pessoal/alura/c3p0-0.9.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/Dev/projetos-JAVA/pessoal/alura/mchange-commons-java-0.2.16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
