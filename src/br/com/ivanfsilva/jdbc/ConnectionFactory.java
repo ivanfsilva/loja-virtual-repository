@@ -1,3 +1,4 @@
+package br.com.ivanfsilva.jdbc;
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -19,6 +20,8 @@ public class ConnectionFactory {
 		comboPooledDataSource.setJdbcUrl(JDBC_URL );
 		comboPooledDataSource.setUser(USER);
 		comboPooledDataSource.setPassword(PASSWORD);
+		
+		comboPooledDataSource.setMaxPoolSize(15);
 		
 		this.dataSource = comboPooledDataSource;
 	}
