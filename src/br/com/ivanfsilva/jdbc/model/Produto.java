@@ -1,4 +1,4 @@
-package model;
+package br.com.ivanfsilva.jdbc.model;
 
 public class Produto {
 
